@@ -20,7 +20,7 @@ venue:
 #  mail: WG@example.com
 #  arch: https://example.com/WG
   github: "Credential-Provider-SIG/Credential-Exchange-IANA"
-#  latest: "https://Credential-Provider-SIG.github.io/Credential-Exchange-IANA/draft-fido-credential-exchange.html"
+  latest: "https://Credential-Provider-SIG.github.io/Credential-Exchange-IANA/draft-hinton-credential-exchange.html"
 
 author:
   - fullname: Oscar Hinton
