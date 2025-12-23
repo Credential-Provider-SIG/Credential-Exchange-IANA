@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-12-21T01:45:51.064839+00:00",
+  "timestamp": "2025-12-23T01:40:55.965044+00:00",
   "repo": "Credential-Provider-SIG/Credential-Exchange-IANA",
   "labels": [
     {
@@ -49,6 +49,31 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOQnGxhs7fxXg5",
+      "title": "Reserve namespace",
+      "url": "https://github.com/Credential-Provider-SIG/Credential-Exchange-IANA/issues/1",
+      "state": "OPEN",
+      "author": "Hinton",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "We want to reserve some namespace for company specific implementations.\n\n`company/<type>`\n`company/<extension>`",
+      "createdAt": "2025-12-22T15:44:00Z",
+      "updatedAt": "2025-12-22T15:50:31Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "Progdrasil",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "In the [Extensions](https://fidoalliance.org/specs/cx/cxf-v1.0-ps-20250814.html#cddl-key-extension-name) section of CXF we defined using the rp_id as the prefix to custom extensions. we could do the same for credential types.\n\n* `company.com/<type>`\n* `company.com/<extension>`",
+          "createdAt": "2025-12-22T15:50:31Z",
+          "updatedAt": "2025-12-22T15:50:31Z"
+        }
+      ]
+    }
+  ],
   "pulls": []
 }
