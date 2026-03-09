@@ -72,6 +72,10 @@ Any additional processes established by the expert(s) after the publication of t
 
 Credential Exchange Format credential type identifiers are JSON compatible strings defined in ["Credential Types Registry"](https://fidoalliance.org/specs/cx/cxf-v1.0-ps-20250814.html#sctn-iana-credential-types-registry). Credential type identifiers **MUST** be unique across all registered credential type identifiers.
 
+Identifiers not containing a forward slash ("/") are reserved for use by the Credential Exchange Format specification itself.
+
+Identifiers with a forward slash ("/") SHALL follow the pattern of `<domain>/<path>` where `<domain>` is a domain name owned by the entity registering the identifier and `<path>` is a string of lowercase alphanumeric characters including hyphens. For example, `example.com/custom-credential-type` is a valid credential type identifier.
+
 ### Registering Credential Type Identifiers {#registering-credential-types}
 
 Credential Exchange Format credential type identifiers are registered using the Specification Required policy (see Section 4.6 of {{!RFC8126}}).
@@ -97,7 +101,7 @@ Registrations MUST reference a freely available, stable specification, e.g., as 
 
 ### Registration Request Processing
 
-As noted in {{registering-credential-types}}, Credential Exchange Format credential type identifiers are registered using the Specification Required policy.
+As noted in {{registering-credential-types}}, Credential Exchange Format credential type identifiers containing a forward slash ("/") are registered using the Specification Required policy.
 
 ### Initial Values in the Credential Type Identifiers Registry
 
@@ -110,6 +114,10 @@ Change Controller:
 ## Credential Exchange Extension Identifiers Registry {#extension-registry}
 
 Credential Exchange Format extension identifiers are JSON compatible strings defined in ["Extension Registry"](https://fidoalliance.org/specs/cx/cxf-v1.0-ps-20250814.html#sctn-iana-extension-registry). Extension identifiers **MUST** be unique across all registered extension identifiers.
+
+Identifiers not containing a forward slash ("/") are reserved for use by the Credential Exchange Format specification itself.
+
+Identifiers with a forward slash ("/") SHALL follow the pattern of `<domain>/<path>` where `<domain>` is a domain name owned by the entity registering the identifier and `<path>` is a string of lowercase alphanumeric characters including hyphens. For example, `example.com/custom-credential-type` is a valid credential type identifier.
 
 ### Registering Extension Identifiers {#registering-extension-identifiers}
 
@@ -136,7 +144,7 @@ Registrations MUST reference a freely available, stable specification, e.g., as 
 
 ### Registration Request Processing
 
-As noted in {{registering-extension-identifiers}}, Credential Exchange Format extension identifiers are registered using the Specification Required policy.
+As noted in {{registering-extension-identifiers}}, Credential Exchange Format extension identifiers containing a forward slash ("/") are registered using the Specification Required policy.
 
 ### Initial Values in the Credential Exchange Extension Identifiers Registry
 
