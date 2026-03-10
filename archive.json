@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-03-08T02:04:40.492000+00:00",
+  "timestamp": "2026-03-10T01:58:03.108313+00:00",
   "repo": "Credential-Provider-SIG/Credential-Exchange-IANA",
   "labels": [
     {
@@ -75,5 +75,32 @@
       ]
     }
   ],
-  "pulls": []
+  "pulls": [
+    {
+      "number": 2,
+      "id": "PR_kwDOQnGxhs7JBukj",
+      "title": "Reserve identifiers for spec use",
+      "url": "https://github.com/Credential-Provider-SIG/Credential-Exchange-IANA/pull/2",
+      "state": "OPEN",
+      "author": "Hinton",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Resolves #1 \r\n\r\nSlightly uncertain about the wording and placement.",
+      "createdAt": "2026-03-09T10:18:50Z",
+      "updatedAt": "2026-03-09T10:19:10Z",
+      "baseRepository": "Credential-Provider-SIG/Credential-Exchange-IANA",
+      "baseRefName": "main",
+      "baseRefOid": "a505c1b4679a515d04a4b6ae6457f2f9852ee749",
+      "headRepository": "Credential-Provider-SIG/Credential-Exchange-IANA",
+      "headRefName": "reserved",
+      "headRefOid": "6d77b1a8c0704533c38efe2c7ca8ca62e4c07273",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    }
+  ]
 }
