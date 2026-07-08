@@ -36,12 +36,12 @@ normative:
       org: Fido Alliance
     title: Credential Exchange Format
     date: 2025-08-14
-    target: https://fidoalliance.org/specs/cx/cxf-v1.0-ps-20250814.html
+    target: https://fidoalliance.org/specs/cx/cxf-v1.0-ps-errata-20260309.html
 ...
 
 --- abstract
 
-This specification defines IANA registries for Fido Alliance Credential Exchange Format (CXF) credential types and extension identifiers.
+This specification defines IANA registries for Fido Alliance Credential Exchange Format (CXF) credential type and extension identifiers.
 
 --- middle
 
@@ -49,7 +49,7 @@ This specification defines IANA registries for Fido Alliance Credential Exchange
 
 The FIDO Alliance’s credential exchange specifications define a standard format for transferring all types of credentials in a credential manager including passwords, passkeys and more in a manner that is secure by default.
 
-This specification establishes IANA registries for the Credential Exchange Format [CredentialExchangeFormat] credential types and extension identifiers. The initial values for these registries are in the IANA Considerations section of the [CredentialExchangeFormat] specification.
+This specification establishes IANA registries for the Credential Exchange Format [CredentialExchangeFormat] credential type and extension identifiers. The initial values for these registries are in the IANA Considerations section of the [CredentialExchangeFormat] specification.
 
 ## Requirements Notation and Conventions
 
@@ -68,9 +68,9 @@ This specification establishes two registries:
 
 Any additional processes established by the expert(s) after the publication of this document will be recorded on the registry web page at the discretion of the expert(s).
 
-## Credential Exchange Format Credential Type Identifier Registry {#type-registry}
+## Credential Exchange Format Credential Type Identifiers Registry {#type-registry}
 
-Credential Exchange Format credential type identifiers are JSON compatible strings defined in ["Credential Types Registry"](https://fidoalliance.org/specs/cx/cxf-v1.0-ps-20250814.html#sctn-iana-credential-types-registry). Credential type identifiers **MUST** be unique across all registered credential type identifiers.
+Credential Exchange Format credential type identifiers are JSON compatible strings defined in ["Credential Types Registry"](https://fidoalliance.org/specs/cx/cxf-v1.0-ps-errata-20260309.html#sctn-iana-credential-types-registry). Credential type identifiers **MUST** be unique across all registered credential type identifiers.
 
 ### Registering Credential Type Identifiers {#registering-credential-types}
 
@@ -99,17 +99,17 @@ Registrations MUST reference a freely available, stable specification, e.g., as 
 
 As noted in {{registering-credential-types}}, Credential Exchange Format credential type identifiers are registered using the Specification Required policy.
 
-### Initial Values in the Credential Type Identifiers Registry
+### Initial Values in the Credential Exchange Format Credential Type Identifiers Registry
 
-The values listed in the ["Credential Types Registry"](https://fidoalliance.org/specs/cx/cxf-v1.0-rd-20250313.html#sctn-iana-credential-types-registry) section of the [CredentialExchangeFormat] specification will be used to populate the initial values in the registry. The Change Controller entry for each of those registrations is:
+The values listed in the ["Credential Types Registry"](https://fidoalliance.org/specs/cx/cxf-v1.0-ps-errata-20260309.html#sctn-iana-credential-types-registry) section of the [CredentialExchangeFormat] specification will be used to populate the initial values in the registry. The Change Controller entry for each of those registrations is:
 
 {: newline="true"}
 Change Controller:
 : Fido Alliance Technical Working Group (todo: email)
 
-## Credential Exchange Extension Identifiers Registry {#extension-registry}
+## Credential Exchange Format Extension Identifiers Registry {#extension-registry}
 
-Credential Exchange Format extension identifiers are JSON compatible strings defined in ["Extension Registry"](https://fidoalliance.org/specs/cx/cxf-v1.0-ps-20250814.html#sctn-iana-extension-registry). Extension identifiers **MUST** be unique across all registered extension identifiers.
+Credential Exchange Format extension identifiers are JSON compatible strings defined in ["Extension Registry"](https://fidoalliance.org/specs/cx/cxf-v1.0-ps-errata-20260309.html#sctn-iana-extension-registry). Extension identifiers **MUST** be unique across all registered extension identifiers.
 
 ### Registering Extension Identifiers {#registering-extension-identifiers}
 
@@ -138,9 +138,9 @@ Registrations MUST reference a freely available, stable specification, e.g., as 
 
 As noted in {{registering-extension-identifiers}}, Credential Exchange Format extension identifiers are registered using the Specification Required policy.
 
-### Initial Values in the Credential Exchange Extension Identifiers Registry
+### Initial Values in the Credential Exchange Format Extension Identifiers Registry
 
-The values listed in the ["Extension Registry"](https://fidoalliance.org/specs/cx/cxf-v1.0-rd-20250313.html#sctn-iana-extension-registry) section of the [CredentialExchangeFormat] specification will be used to populate the initial values in the registry. The Change Controller entry for each of those registrations is:
+The values listed in the ["Extension Registry"](https://fidoalliance.org/specs/cx/cxf-v1.0-ps-errata-20260309.html#sctn-iana-extension-registry) section of the [CredentialExchangeFormat] specification will be used to populate the initial values in the registry. The Change Controller entry for each of those registrations is:
 
 {: newline="true"}
 Change Controller:
